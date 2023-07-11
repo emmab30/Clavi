@@ -1,0 +1,25 @@
+Primero, para trabajar sobre un app específica:
+
+iOS: appcenter apps set-current eabuslaiman30/Controla-Tus-Gastos
+
+Android: appcenter apps set-current eabuslaiman30/Controla-Tus-Gastos-1
+
+Comando para enviar nueva versión iOS a Codepush.
+
+appcenter codepush release-react -a eabuslaiman30/Controla-Tus-Gastos --plist-file ios/TusGastos/Info.plist -t 1.3
+
+Comando para enviar nueva versión Android a Codepush.
+
+appcenter codepush release-react -a eabuslaiman30/Controla-Tus-Gastos-1 -t 1.3
+
+Comando para listar versiones y metricas generales:
+
+appcenter codepush deployment list -a eabuslaiman30/Controla-Tus-Gastos
+
+Comando para hacer rollback de una versión de iOS.
+
+appcenter codepush rollback -a eabuslaiman30/Controla-Tus-Gastos
+
+Comando para limpiar todos los deployments:
+
+appcenter codepush deployment clear -a eabuslaiman30/Controla-Tus-Gastos Production

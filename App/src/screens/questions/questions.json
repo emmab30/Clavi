@@ -1,0 +1,81 @@
+{
+    "questions": [
+        {
+            "question": "¿Lo necesitas?",
+            "options": [
+                {
+                    "label": "Sí",
+                    "value": 0
+                },
+                {
+                    "label": "Mas o menos",
+                    "value": 0.5
+                },
+                {
+                    "label": "No",
+                    "value": 1
+                }
+            ]
+        },
+        {
+            "question": "¿Te vas a endeudar?",
+            "options": [
+                {
+                    "label": "Sí, mucho",
+                    "value": 3
+                },
+                {
+                    "label": "Un poco",
+                    "value": 1
+                },
+                {
+                    "label": "No",
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "question": "¿Podés encontrarlo más barato?",
+            "options": [
+                {
+                    "label": "Sí",
+                    "value": 2
+                },
+                {
+                    "label": "No",
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "question": "¿Como pensas que te vas a sentir un mes después de comprarlo?",
+            "options": [
+                {
+                    "label": "Muy bien",
+                    "value": 0
+                },
+                {
+                    "label": "Bien",
+                    "value": 0.5
+                },
+                {
+                    "label": "Igual que ahora",
+                    "value": 1
+                }
+            ]
+        },
+        {
+            "question": "¿Se puede rentabilizar?",
+            "options": [
+                {
+                    "label": "Sí",
+                    "value": 0
+                },
+                {
+                    "label": "No",
+                    "value": 1
+                }
+            ]
+        }
+    ]
+}
